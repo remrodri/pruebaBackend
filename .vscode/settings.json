@@ -1,4 +1,5 @@
 {
   "appService.defaultWebAppToDeploy": "/subscriptions/c59e4e3d-6d5a-41f1-bfe4-416d12af97d5/resourceGroups/pruebas/providers/Microsoft.Web/sites/pruebaback",
-  "appService.deploySubpath": "."
+  "appService.deploySubpath": ".",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"]
 }
